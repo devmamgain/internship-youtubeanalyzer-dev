@@ -1,0 +1,29 @@
+@import url("https://uilight.netlify.app/main.css");
+.titlecard
+{   
+    
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding: 20vh;
+    color: white;
+    background-color: rgb(46, 44, 44);
+}
+.earningtitlecard{
+    text-align: center;
+    font-size: 40px;
+    width: 300px;
+    background-color: grey;
+}
+.thumbnailimage{
+    width: 250px;
+    height: 200px;
+}
+
+.companies{
+    padding-left: 200px;
+    display: flex;
+    color: white;
+    background-color: black;
+    gap: 100vh;
+}

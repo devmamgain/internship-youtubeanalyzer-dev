@@ -57,7 +57,7 @@ app.post('/api/analyzeVideo', async (req, res) => {
     const contactNumber = req.body.contactNumber;
      const mailOptions = {
        from: 'devmamgain123@gmail.com',
-       to: '2003010270@ipec.org.in',
+       to: 'ravi@anchors.in',
        subject: 'Callback Request',
        html: `<p>Name: ${name || 'Not provided'}</p>
               <p>Contact Number: ${contactNumber}</p>`,

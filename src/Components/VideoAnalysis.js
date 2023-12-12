@@ -14,7 +14,7 @@ function VideoAnalysis() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.post('http://localhost:3001/api/analyzeVideo', {
+        const response = await axios.post('https://internship-youtubeanalyzer-backend-dev.onrender.com/api/analyzeVideo', {
           videoLink: decodeURIComponent(videoLink),
           // Other parameters as needed
         });
